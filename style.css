@@ -7,7 +7,7 @@
 }
 
 h1, h2, h3, h4, h5, h6, span{
-    color: #6c04fd;
+    color: #000205;
     text-align: center;
     line-height: 1.5;
 }
@@ -53,7 +53,7 @@ background-color: #f8f8f8;
 }
 .section__title {
     margin-bottom:  20px;
-    color: #1607e9;
+    color: #120896;
 }
 /* Nav Bar */
 
@@ -71,18 +71,18 @@ nav {
 }
 .nav__link--anchor{
     margin: 0 12px;
-    color: #918585;
+    color: #0ac3e4;
     font-weight: bold;
 }
 .nav__link--anchor-primary {
-    background-color:#38068e;
+    background-color:#280d8a;
     padding: 8px 20px;
     border-radius: 50px;
-    color: white;
+    color: rgb(241, 237, 237);
     transition: all 300ms ease;
 }
 .nav__link--anchor-primary:hover {
-    background-color: #5a13d6;
+    background-color: #1e0150;
 }
 .personal__logo {
     font-size: 24px;
@@ -131,12 +131,12 @@ nav {
     max-width: 600px;
     margin: 16px;
     font-size: 16px;
-    font-family: lato,sans-serif;
+    font-family: sans-serif;
 }
 
 .about-me__link {
     font-size:  20px;
-    color: black;
+    color: rgb(5, 5, 5);
     padding: 0 16px;
 }
 
@@ -251,7 +251,7 @@ nav {
     transition:transform 450ms, opacity 300ms;    
 }
 .project__description--title {
-font-size: 40px;
+    font-size: 40px;
 }
 .project__description--para {
     margin: 16px 0;
@@ -263,9 +263,12 @@ font-size: 40px;
     
 }
 
- .fa-link, .fa-github {
+ .fa-link, .fab {
     color:white;
- }   
+ }
+    
+
+   
 .project__description--title,
 .project__description--sub-title, 
 .project__description--para,

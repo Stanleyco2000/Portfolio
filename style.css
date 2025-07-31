@@ -17,8 +17,12 @@ p {
     font-size: 16px;
 }
 
+ul {
+    list-style: none;
+}
+
 a {
-    text-decoration: none;
+    text-decoration:none;
     position: relative;
 }
 
@@ -41,7 +45,7 @@ a {
     background-color: #fff;
 }
 .link__hover-effect--black:after {
-    background-color: rgb(3, 3, 48);
+    background-color: black;
 }
 
 
@@ -63,7 +67,7 @@ a {
 }
 
 .text--Blue{
-    color: rgb(43, 10, 226);
+    color: blue;
 
 
 }

@@ -284,6 +284,20 @@ footer {
     background-color:  #242424;
 
 }
+.footer__logo {
+    
+    margin-bottom: 20px;
+
+    }
+
+.footer__social--list {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
 
 .footer__row {
     display: flex;
@@ -297,6 +311,6 @@ footer {
     height: 70px;
 }
 .footer__social--link,
-.footer__copyright  {
+.footer__copyright{
     color: #fff;
 }

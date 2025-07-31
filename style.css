@@ -287,13 +287,13 @@ footer {
 .footer__logo {
     
     margin-bottom: 20px;
-
-    }
+}
 
 .footer__social--list {
     width: 100%;
     max-width: 500px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-around;
     margin-bottom: 20px;
@@ -310,7 +310,9 @@ footer {
     width: 70px;
     height: 70px;
 }
-.footer__social--link,
-.footer__copyright{
+.footer__social--link, 
+.footer__copyright {
     color: #fff;
 }
+
+

@@ -17,7 +17,7 @@ p {
     font-size: 16px;
 }
 
-ul {
+li {
     list-style: none;
 }
 
@@ -274,7 +274,7 @@ nav {
     max-width: 550px;
     z-index: 3;
     opacity: 0;
-    transition:transform 450ms, opacity 300ms;    
+    transition: transform 450ms, opacity 300ms;    
 }
 .project__description--title {
     font-size: 40px;
@@ -286,6 +286,7 @@ nav {
 .project__description--link{
     font-size: 20px;
     margin-right: 16px;
+
     
 }
 
